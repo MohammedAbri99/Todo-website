@@ -1,0 +1,30 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.gradient-custom {
+    background-color: cornflowerblue;
+}
+
+@media (min-width:1000px) {
+    section {
+        height: 100%;
+    }
+}
+.strikethrough s {
+    text-decoration: none;
+}

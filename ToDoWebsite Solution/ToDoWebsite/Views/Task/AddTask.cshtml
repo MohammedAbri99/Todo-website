@@ -1,0 +1,25 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model ToDoTask
+<h3>
+    Create New Todo
+</h3>
+
+<form asp-action="create">
+    
+    <label asp-for="title" class="form-label"></label>
+    <input asp-for="title" class="form-control" />
+    <span asp-validation-for="title" class="text-danger"></span>
+
+    <label asp-for="DeadLine" class="form-label"></label>
+    <input asp-for="DeadLine" class="form-control" />
+
+    <label asp-for="urgent" class="form-label"></label>
+    <input asp-for="urgent" class="form-control" />
+
+    <input type="submit" value="Add todo" class="btn btn-primary" />
+</form>
+

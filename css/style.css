@@ -1,0 +1,9 @@
+.gradient-custom {
+    background-color: cornflowerblue;
+}
+@media (min-width:1000px) {
+    section{
+        height: 100%;
+    }
+}
+  
